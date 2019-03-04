@@ -1,0 +1,180 @@
+.title{
+	font-size: 3em;
+}
+.paragraph{
+	padding: 2%;	
+	margin: auto;
+	margin-top: 5%;
+}
+
+.list{
+	text-align: center;
+	margin: auto;
+	height: 12.5em;
+}
+.item{
+	position: relative;
+	text-align: center;
+	float:left;
+	margin: 0% 1% 0% 1%;
+}
+
+.image{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 6.25em;
+	width: 6.25em;
+}
+
+.item:hover .price_tag{
+  opacity: 1;
+}
+.item .image{
+	opacity: 0.5;
+	transition: 0.5s ease;
+}
+.item:hover .image{
+  opacity: 1;
+}
+
+#bluetooth{
+	background-image: url(img/bluetooth.png);
+}
+#solar_panel{
+	background-image: url(img/solar_panel.png);
+}
+#gps{
+	background-image: url(img/gps.png);
+}
+#green_energy{
+	background-image: url(img/icon_ecology.png);
+}
+#blueprints{
+	background-image: url(img/icon_blueprints.png);
+}
+#personalize_img{
+	height: 12.5em;
+	background-image: url(img/icon_personalize.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+
+#tech_img{
+	height: 25em;
+	background-image: url(img/umbrella_tech.png);	
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+#comfort_img{
+	height: 25em;
+	background-image: url(img/umbrella_comfort.png);	
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+#elegance_img{
+	height: 25em;
+	background-image: url(img/umbrella_elegance.png);	
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.product{
+	position: relative;
+}
+.img{
+	height: 15em;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.description{
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:rgba(5,19,24,0.75);
+	overflow: hidden;	
+	height:0;
+	transition: 1s ease;
+}
+
+.product:hover .description{
+  height: 9.3em;
+}
+.price,.name{
+	height: 10%;
+}
+
+#name {
+	display:none!important;
+}
+
+
+#img_tech1{
+	background-image: url(img/Tumbrella_handle.png);	
+}
+
+#img_tech2{
+	background-image: url(img/Tumbrella_colours.png);	
+}
+#img_tech3{
+	background-image: url(img/Tumbrella_modules.png);	
+}
+
+#img_comfort1{
+	background-image: url(img/Humbrella_grip.png);	
+}
+
+#img_comfort2{
+	background-image: url(img/Humbrella_strap.png);	
+}
+#img_comfort3{
+	background-image: url(img/Humbrella_bt.png);	
+}
+
+#img_elegance1{
+	background-image: url(img/Sumbrella_woods.png);	
+}
+
+#img_elegance2{
+	background-image: url(img/Sumbrella_leather.png);	
+}
+#img_elegance3{
+	background-image: url(img/Sumbrella_amazed.png);	
+}
+@media (min-width: 769px) {
+	.description{
+    	color: #DDD9D9;
+	}
+
+}
+@media (max-width: 768px) {
+	.description{
+    	font-size:93%;
+    	background-color: transparent;
+		position: relative;
+		height: 12.5em;
+	}
+    .product:hover .description{
+		height: 12.5em;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.description{
+    	font-size:85%;
+		height: 8em;
+	}
+	.product:hover .description{
+		height: 8em;
+	}
+
+}

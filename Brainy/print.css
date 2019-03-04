@@ -1,0 +1,44 @@
+@page {
+	size: 297mm 210mm;
+	margin: 15mm;
+}
+
+.dark-theme {
+	background: #dedede; 
+	color: #000;
+}
+
+.light-theme {
+	background: #FFF; 
+	color: #000;
+}
+
+.indigo {
+	background: #cecece; 
+	color: #000;
+}
+
+.wenge {
+	background: #fafafa; 
+	color: #000;
+}
+
+body {
+	font-size: 12pt;
+}
+
+#content {
+	max-width: 100%;
+}
+
+canvas, #myTopNav, #breadcumb, #pre-footer, footer, .button ,.ytp-cued-thumbnail-overlay-image, #topButton{
+	display: none;
+}
+
+.v-offset-5, .v-offset-10, .v-offset-15, .v-offset-20, .v-offset-25, .v-offset-30, .v-offset-35, .v-offset-40, .v-offset-45, .v-offset-50 {
+	margin-top: 0px;
+}
+
+.title{
+	page-break-inside: avoid;
+}

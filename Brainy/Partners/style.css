@@ -1,0 +1,144 @@
+#intro{
+	background-repeat: no-repeat;	
+	background-position: bottom;
+	background-size: contain;
+	text-align: center; 
+	clear: both;
+	display: block; 
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.container{	
+	min-height: 300px;
+	text-align: center;	
+	overflow: auto;
+	background-repeat: no-repeat;	
+	background-size: contain;
+}
+.title{
+	font-size: 50px;
+	font-family: 'Montserrat Thin', sans-serif;
+}
+
+.text{
+	margin: auto;
+	text-align: center;
+	width: 70%;	
+	font-family: 'Montserrat Thin', sans-serif;	
+}
+.paragraph{
+	padding: 2%;	
+	margin: auto;
+	margin-top: 5%;
+}
+
+.list{
+	text-align: center;
+	margin: auto;
+	
+}
+
+.image{
+	text-align: center;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 100px;
+	width: 100px;
+}
+.price_tag{
+	margin-top: 5%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.item:hover .price_tag{
+  opacity: 1;
+}
+.item .image{
+	opacity: 0.5;
+	transition: 0.5s ease;
+}
+.item:hover .image{
+  opacity: 1;
+}
+iframe{
+ 	width:100%;
+ 	height:30em;
+}
+#bluetooth{
+	background-image: url(img/bluetooth.png);
+}
+#solar_panel{
+	background-image: url(img/solar_panel.png);
+}
+#gps{
+	background-image: url(img/gps.png);
+}
+#green_energy{
+	background-image: url(img/icon_ecology.png);
+}
+#blueprints{
+	background-image: url(img/icon_blueprints.png);
+}
+#stats_img{
+	background-image: url(img/icon_stats.png);
+}
+
+@media (min-width: 1200px){
+	/*
+	#intro{
+		background-image: url("img/from_bottom.png");
+	}
+	#about_us{
+		background-position: top;
+		background-image: url("img/from_top.png");
+	}
+	#our_technology{
+		background-position: left;
+		background-image: url("img/left_wave.png");
+	}
+	#shop{
+		background-position: right;
+		background-image: url("img/right_wave.png");
+	}
+	#stats{
+		background-position: left;
+		background-image: url("img/left_wall.png");
+	}
+	#contact_us{
+		background-position: right;
+		background-image: url("img/right_wall.png");
+	}
+	*/
+}
+
+@media (max-width: 768px) {
+	.title{
+		font-size: 44px;
+	}
+}
+
+@media (max-width: 480px) {
+	.title{
+		font-size: 35px;
+	}
+}

@@ -1,0 +1,61 @@
+#profile_pic{
+	/*background-image: url(img/profile.png); default image for new users*/
+	height: 18em;
+	width: 18em;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: 1.5px solid #DDD9D9;
+}
+
+.title{
+	border-bottom: 0.5px solid #fff;
+}
+.bold{
+	font-weight:bold;
+}
+
+
+@media (max-width: 768px) {	
+	*{
+    	text-align:center;
+    }
+    #profile_pic{
+    	margin-top:1em;
+    }
+/*
+	#profile_pic{
+		text-align: center;
+		position: relative;
+		background-position: center;	
+		height: 10em;
+		width: 10em;	
+		border: 2px solid #DDD9D9;
+		margin-right: 0;
+	}
+    #profile_pic{
+		margin: auto;
+		float: none;
+	}
+	#profile_pic_container{
+		position: relative;
+		margin: auto;
+	}
+    */
+    
+}
+@media (max-width: 480px){
+/*
+	#profile_pic{
+		height: 8em;
+		width: 8em;
+		margin: auto;
+		float: none;
+	}
+	#profile_pic_container{
+		position: relative;
+		margin: auto;
+	}
+    */
+}

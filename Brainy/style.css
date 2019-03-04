@@ -1,0 +1,121 @@
+#title_team{
+	margin-bottom: 5%;
+}
+#motto{
+	position: relative;
+}
+.divider{
+	border-bottom: 5px dotted #DDD9D9;
+}
+.adaptive{	
+	overflow: auto;
+}
+
+.title{
+	font-size: 50px;
+	position: relative;
+}
+/*
+.paragraph{
+	position: relative;
+	padding: 2%;	
+	margin: auto;
+	margin-top: 5%;	
+}*/
+
+.image{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 200px;
+	width: 200px;
+}
+
+.team{
+	position: relative;
+	margin-top: 10%;
+}
+
+.team_figure{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 100%;
+	z-index: 0;
+	opacity: 0.4;
+}
+
+#team1{
+	background-image: url("img/team1.png");
+}
+#team2{
+	background-image: url("img/team2.png");
+}
+#team3{
+	background-image: url("img/team3.png");
+}
+#team4{
+	background-image: url("img/team4.png");
+}
+/*
+.icon{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 100px;
+	width: 100px;
+}*/
+#img_bluetooth{
+	background-image: url("img/bluetooth.png");
+}
+#img_solar_panel{
+	background-image: url("img/solar_panel.png");
+}
+#img_gps{
+	background-image: url("img/gps.png");
+}
+#img_community{
+	background-image: url("img/icon_community.png");
+}
+#img_team{
+	background-image: url("img/icon_community.png");
+}
+#img_umbrella{
+	background-image: url("img/icon_umbrella.png");
+}
+#img_shipping{
+	background-image: url("img/icon_shipping.png");
+}
+#img_tree{
+	background-image: url("img/icon_tree.png");
+}
+
+
+@media(min-width: 1200px){
+
+	.flex{
+		display: flex;
+		align-items: center;
+	}
+
+}
+@media (max-width: 768px) {
+	.title{
+		font-size: 44px;
+	}
+	.image{
+		height: 175px;
+		width: 175px;
+	}
+}
+
+@media (max-width: 480px) {
+	.title{
+		font-size: 35px;
+	}
+	.image{
+		height: 150px;
+		width: 150px;
+	}
+}

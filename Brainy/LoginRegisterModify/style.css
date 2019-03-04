@@ -1,0 +1,227 @@
+/*
+	CONTACT US
+*/
+
+#map{
+	height: 30em;
+}
+
+#contactContainer
+{
+	padding: 5em 0;
+}
+#contactTitle{
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+#textAreaMail{
+	height: 12em;
+	background: #DDD9D9;
+	color: #051318;
+	font-size: 1.5em;
+}
+#mapLink:hover {
+  	transform: rotate(20deg);
+    transform: rotate(-20deg);
+}
+/* 
+	FINE CONTACT US
+*/
+.content h1
+{
+	text-align: center;
+	font-size: 3em;
+}
+.inputFile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+#loginPage
+{
+	height: 30em;
+}
+#regPage
+{
+	height: 52em;
+}
+#loginSeparator
+{
+	position: absolute;
+	height: 25em;
+	width:1px;
+	background: #DDD9D9;
+	left:50%;
+}
+
+#regSeparator
+{
+	position: absolute;
+	height: 35em;
+	width:1px;
+	background: #DDD9D9;
+	left:50%;
+}
+.page h1
+{
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+#loginToRegistration
+{
+  height: 25em;
+}
+#loginToRegistration h2
+{
+  margin-top: 20%;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:100;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index:100;
+}
+
+.popup {
+  margin: 15% auto;
+  padding: 2em;
+  background: #02424c;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin: 1em auto;
+  color: #BBAC79;
+  font-size: 2em;
+  overflow: scroll;
+}
+.popup .cont {
+  max-height: 30%;
+  overflow: auto;
+  margin: 2em;
+  color: #BBAC79;
+}
+
+h4{
+	display: inline-block;
+	margin-left: 3em;
+	margin-bottom: 0; 
+}
+#imgLbl
+{
+    height: auto;
+}
+#imgText{
+	padding-top: 3em;
+	float: left;
+    display: contents;
+}
+
+@-webkit-keyframes myrotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(20deg);}
+}
+
+@keyframes myrotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(20deg);}
+}
+#contactPhone:hover{
+ 	-ms-transform: rotate(20deg); /* IE 9 */
+  	-webkit-transform: myrotate 0.1s infinite; /* Safari 3-8 */
+  	animation: myrotate 0.1s infinite; 
+}
+#robot {
+	height: 20em;
+    width: auto;
+}
+.success{
+	color: green!important;
+}
+@media screen and (max-width: 992px){
+	
+	.page h1
+	{
+		font-size: 1.3em;
+		padding-bottom: 3em;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.page h1
+	{
+		font-size: 1.1em;
+		padding-bottom: 3em;
+	}
+    .popup h2 {
+      font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px){
+	#loginSeparator
+    {
+    	display: none;
+    }
+    #regPage{
+    	height:auto;
+    }
+	h4
+	{
+		margin-bottom: 0; 
+	}
+	.page
+	{
+		height: auto;
+	}
+	#regSeparator
+	{
+		display: none
+	}
+	.page h1
+	{
+		font-size: 1.5em;
+		padding-bottom: 1em;
+	}
+	.label
+	{
+		font-size: 1.5em;
+	}
+	.btn
+	{
+		float: left;
+	}
+    #loginToRegistration{
+    	height: auto;
+  		margin-right: 0;
+    }
+    #loginPage
+    {
+        height: auto;
+    }
+    /* CONTACT US */
+	#mailButton{
+		margin-top: 2em;
+		margin-left: 5%;
+	}
+    
+}
+

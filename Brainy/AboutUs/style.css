@@ -1,0 +1,96 @@
+#intro{
+	height: 20em;
+}
+.divider{
+	border-bottom: 5px dotted #DDD9D9;
+}
+.adaptive{		
+	overflow: auto;
+}
+
+.title{
+	font-size: 3em;
+	position: relative;
+}
+
+.paragraph{
+	position: relative;
+	padding: 2%;	
+	margin: auto;
+	margin-top: 5%;	
+}
+
+.image{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 12.5em;
+	width: 12.5em;
+}
+
+.team{
+	position: relative;
+	margin-top: 10%;
+}
+
+.team_figure{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 100%;
+	z-index: 0;
+	opacity: 0.4;
+}
+
+#team1{
+	background-image: url("img/team1.png");
+}
+#team2{
+	background-image: url("img/team2.png");
+}
+#team3{
+	background-image: url("img/team3.png");
+}
+#team4{
+	background-image: url("img/team4.png");
+}
+.icon{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 6.25em;
+	width: 6.25em;
+}
+#img_team{
+	background-image: url("img/icon_community.png");
+}
+
+
+@media(min-width: 1200px){
+
+	.flex{
+		display: flex;
+		align-items: center;
+	}
+
+}
+@media (max-width: 768px) {
+	.title{
+		font-size: 2.75em;
+	}
+	.image{
+		height: 175px;
+		width: 175px;
+	}
+}
+
+@media (max-width: 480px) {
+	.title{
+		font-size: 35px;
+	}
+	.image{
+		height: 11em;
+		width: 11em;
+	}
+}

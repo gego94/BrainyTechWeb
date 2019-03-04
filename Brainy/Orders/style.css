@@ -1,0 +1,44 @@
+/*CSS Document*/
+#total_price {
+	text-align: right;
+	padding: 20px 0;
+}
+
+.right {
+	text-align: right;
+}
+
+#checkout {
+	text-align: right;
+}
+
+#checkout button {
+	color: #bbac79;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px;
+    background: #051318;
+    border: 2px solid #bbac79;
+}
+
+.product_resume {
+	padding: 15px !important;
+    box-sizing: border-box;
+    transition: 0.8s;
+    overflow: hidden !important;
+}
+
+.arrow {
+	text-decoration: none;
+	margin-bottom: 10px;
+	transition: 0.8s;
+	transform: rotate(180deg);
+}
+
+.item_even {
+	background: #0881931a;
+}
+
+.item_odd {
+	background: #08819336;
+}

@@ -1,0 +1,55 @@
+.title{
+	font-size: 50px;
+}
+#intro{
+	height: 20em;
+}
+
+h3{
+	margin-top:0;
+    margin-bottom:0;
+}
+
+.image{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 200px;
+	width: 200px;
+}
+#img_bluetooth{
+	background-image: url("img/bluetooth.png");
+}
+#img_solar_panel{
+	background-image: url("img/solar_panel.png");
+}
+#img_gps{
+	background-image: url("img/gps.png");
+}
+@media(min-width: 1200px){
+
+	.flex{
+		display: flex;
+		align-items: center;
+	}
+
+}
+@media (max-width: 768px) {
+	.title{
+		font-size: 44px;
+	}
+	.image{
+		height: 175px;
+		width: 175px;
+	}
+}
+
+@media (max-width: 480px) {
+	.title{
+		font-size: 35px;
+	}
+	.image{
+		height: 150px;
+		width: 150px;
+	}
+}

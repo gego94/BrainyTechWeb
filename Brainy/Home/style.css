@@ -1,0 +1,130 @@
+.title{
+	font-size: 50px;
+}
+#intro{
+	height: 20em;
+}
+
+h3{
+	margin-top:0;
+    margin-bottom:0;
+}
+
+.image{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+	height: 100px;
+	width: 100px;
+}
+.price_tag{
+	margin-top: 5%;
+	opacity: 0;
+	transition: 0.5s ease;
+}
+
+.item:hover .price_tag{
+  opacity: 1;
+}
+.item .image{
+	opacity: 0.5;
+	transition: 0.5s ease;
+}
+.item:hover .image{
+  opacity: 1;
+}
+
+#bluetooth{
+	background-image: url(img/bluetooth.png);
+}
+#solar_panel{
+	background-image: url(img/solar_panel.png);
+}
+#gps{
+	background-image: url(img/gps.png);
+}
+#green_energy{
+	background-image: url(img/icon_ecology.png);
+}
+#blueprints{
+	background-image: url(img/icon_blueprints.png);
+}
+#stats_img{
+	background-image: url(img/icon_stats.png);
+}
+
+@media (max-width: 768px) {
+	.title{
+		font-size: 44px;
+	}
+}
+
+@media (max-width: 480px) {
+	.title{
+		font-size: 35px;
+	}
+}
+
+.floating1	 {  
+	position: absolute;
+	background-image: url('/Home/img/cloud1.png');
+	height: 100px;
+	width: 225px;
+	opacity: 0.1;
+	background-size: cover;
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.floating2 {  
+	position: absolute;
+	background-image: url('/Home/img/cloud2.png');
+	height: 114px;
+	width: 225px;
+	opacity: 0.1;
+	background-size: cover;
+    animation-name: floatings;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.floating3 {  
+	position: absolute;
+	background-image: url('/Home/img/cloud3.png');
+	height: 114px;
+	width: 208px;
+	opacity: 0.1;
+	background-size: cover;
+    animation-name: floatingss;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0px,  0); }
+    50%  { transform: translate(30px, 0); }
+    to   { transform: translate(-0px, 0); }  
+ }
+
+@keyframes floatings {
+    from { transform: translate(15px,  0); }
+    25%  { transform: translate(30px, 0); }
+    75%  { transform: translate(-0px, 0); }
+    to   { transform: translate(15px, 0); }  
+}
+
+@keyframes floatingss {
+    from { transform: translate(30px,  0); }
+    50%  { transform: translate(-0px, 0); }
+    to   { transform: translate(30px, 0); }  
+}

@@ -1,0 +1,12 @@
+canvas {
+  margin: 0;
+  overflow: hidden;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  pointer-events: none !important;
+}
